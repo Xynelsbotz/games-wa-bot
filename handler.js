@@ -77,7 +77,7 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.health))
                     user.health = 100
                 if (!isNumber(user.limit))
-                    user.limit = 0
+                    user.limit = 10
                 if (!isNumber(user.potion))
                     user.potion = 0
                 if (!isNumber(user.trash))
